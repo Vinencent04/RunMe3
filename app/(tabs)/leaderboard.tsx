@@ -243,7 +243,7 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 24,
     fontWeight: '700',
-    color: '#FF6B35',
+    color: '#43A047',
     marginBottom: 15,
   },
   tabContainer: {
@@ -263,7 +263,7 @@ const styles = StyleSheet.create({
     gap: 6,
   },
   activeTab: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#43A047',
   },
   tabText: {
     fontSize: 14,
@@ -341,7 +341,7 @@ const styles = StyleSheet.create({
   },
   userPoints: {
     fontSize: 14,
-    color: '#FF6B35',
+    color: '#43A047',
     fontWeight: '600',
   },
   statsContainer: {

@@ -130,7 +130,7 @@ export default function GroupsScreen() {
         {group.nextRun && (
           <View style={styles.nextRunContainer}>
             <View style={styles.nextRunHeader}>
-              <Calendar size={14} color="#FF6B35" />
+              <Calendar size={14} color="#43A047" />
               <Text style={styles.nextRunTitle}>Next Run</Text>
             </View>
             <Text style={styles.nextRunDate}>{group.nextRun.date}</Text>
@@ -207,10 +207,10 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 24,
     fontWeight: '700',
-    color: '#FF6B35',
+    color: '#43A047',
   },
   createButton: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#43A047',
     width: 40,
     height: 40,
     borderRadius: 20,
@@ -320,7 +320,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     marginBottom: 12,
     borderLeftWidth: 3,
-    borderLeftColor: '#FF6B35',
+    borderLeftColor: '#43A047',
   },
   nextRunHeader: {
     flexDirection: 'row',
@@ -331,7 +331,7 @@ const styles = StyleSheet.create({
   nextRunTitle: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#FF6B35',
+    color: '#43A047',
   },
   nextRunDate: {
     fontSize: 16,
@@ -365,7 +365,7 @@ const styles = StyleSheet.create({
     color: '#8e8e93',
   },
   joinButton: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#43A047',
     paddingVertical: 12,
     borderRadius: 8,
     alignItems: 'center',

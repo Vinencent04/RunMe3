@@ -188,10 +188,10 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 24,
     fontWeight: '700',
-    color: '#FF6B35',
+    color: '#43A047',
   },
   createButton: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#43A047',
     width: 40,
     height: 40,
     borderRadius: 20,

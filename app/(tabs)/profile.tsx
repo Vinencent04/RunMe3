@@ -208,7 +208,7 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 24,
     fontWeight: '700',
-    color: '#FF6B35',
+    color: '#43A047',
   },
   settingsButton: {
     padding: 4,
@@ -285,7 +285,7 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   badge: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#43A047',
     paddingHorizontal: 12,
     paddingVertical: 6,
     borderRadius: 15,
@@ -319,7 +319,7 @@ const styles = StyleSheet.create({
     gap: 6,
   },
   activeTab: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#43A047',
   },
   tabText: {
     fontSize: 14,

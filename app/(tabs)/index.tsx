@@ -135,7 +135,7 @@ export default function HomeScreen() {
           style={styles.actionButton}
           onPress={() => handleLike(post.id)}
         >
-          <Heart size={20} color="#FF6B35" />
+          <Heart size={20} color="#43A047" />
           <Text style={styles.actionText}>{post.likes}</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.actionButton}>
@@ -185,10 +185,10 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 24,
     fontWeight: '700',
-    color: '#FF6B35',
+    color: '#43A047',
   },
   headerButton: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#43A047',
     paddingHorizontal: 16,
     paddingVertical: 8,
     borderRadius: 20,
@@ -267,7 +267,7 @@ const styles = StyleSheet.create({
   activityValue: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#FF6B35',
+    color: '#43A047',
   },
   postImage: {
     width: '100%',
